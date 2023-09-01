@@ -1,0 +1,215 @@
+/* Flexbox Utility CSS File */
+
+/* Display Utilities */
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.d-inline-flex {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+/* Flex Direction Utilities */
+
+.flex-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.flex-row-reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+.flex-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.flex-column-reverse {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+}
+
+/* Flex Wrap Utilities */
+
+.flex-nowrap {
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+.flex-wrap {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.flex-wrap-reverse {
+  -ms-flex-wrap: wrap-reverse;
+  flex-wrap: wrap-reverse;
+}
+
+/* Justify Content Utilities */
+
+.flex-justify-start {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+.flex-justify-end {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+.flex-justify-center {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.flex-justify-between {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.flex-justify-around {
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+.flex-justify-evenly {
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+/* Align Items Utilities */
+
+.flex-items-start {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+.flex-items-end {
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+.flex-items-center {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.flex-items-baseline {
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline; 
+}
+.flex-items-stretch {
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+/* Align Content Utilities */
+
+.flex-content-start {
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+}
+.flex-content-end {
+  -ms-flex-line-pack: end;
+  align-content: flex-end;
+}
+.flex-content-center {
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+.flex-content-between {
+  -ms-flex-line-pack: justify;
+  align-content: space-between;
+}
+.flex-content-around {
+  -ms-flex-line-pack: distribute;
+  align-content: space-around;
+}
+.flex-content-stretch {
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+}
+
+/* Flex Utilities */
+
+.flex-1 {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.flex-auto {
+  -webkit-box-flex: 1;
+  -ms-flex: auto;
+  flex: auto;
+}
+.flex-grow-0 {
+  -webkit-box-flex: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+}
+.flex-shrink-0 {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+/* Align Self Utilities */
+
+.flex-self-auto {
+  -ms-flex-item-align: auto;
+  -ms-grid-row-align: auto;
+  align-self: auto;
+}
+.flex-self-start {
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+.flex-self-end {
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+}
+.flex-self-center {
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+.flex-self-baseline {
+  -ms-flex-item-align: baseline;
+  align-self: baseline;
+}
+.flex-self-stretch {
+  -ms-flex-item-align: stretch;
+  -ms-grid-row-align: stretch;
+  align-self: stretch;
+}
+
+/* Order Utilities */
+
+.flex-order-1 {
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1;
+}
+.flex-order-2 {
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2;
+}
+.flex-order-none {
+  -webkit-box-ordinal-group: inherit;
+  -ms-flex-order: inherit;
+  order: inherit;
+}
